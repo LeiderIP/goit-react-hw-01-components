@@ -1,12 +1,13 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import Profile from 'components/Profile'; 
-import Statistics from 'components/Statistics'; 
-import FriendList from 'components/FriendList'; 
-import userData from 'json/user.json'; 
-import statsData from 'json/data.json'; 
-import friendsData from 'json/friends.json'; 
-
+import Profile from 'components/Profile';
+import Statistics from 'components/Statistics';
+import FriendList from 'components/FriendList';
+import TransactionHistory from 'components/TransactionHistory';
+import userData from 'json/user.json';
+import statsData from 'json/data.json';
+import friendsData from 'json/friends.json';
+import transactionsData from 'json/transactions.json';
 const App = () => {
   return (
     <div>
@@ -19,6 +20,7 @@ const App = () => {
       />
       <Statistics title="Upload stats" stats={statsData} />
       <FriendList friends={friendsData} />
+      <TransactionHistory transactions={transactionsData} />
     </div>
   );
 };

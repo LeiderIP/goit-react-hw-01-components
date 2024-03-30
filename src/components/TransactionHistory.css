@@ -1,0 +1,36 @@
+.Transactions {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 50px 0 50px 0;
+  width: 500px;
+  text-align: center;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 12px;
+  font-weight: bold;
+  color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  background-color: #01bdd5;
+}
+
+td {
+  padding: 12px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #aaabac;
+}
+
+tr.transaction-row:nth-child(even) {
+  background-color: #ecf1f3;
+}
+
+.transaction-row:last-child td {
+  border-bottom: none;
+}

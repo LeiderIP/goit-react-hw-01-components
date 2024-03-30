@@ -1,78 +1,78 @@
 .profile {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    height: 380px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
-    background-color: #e6eff6;
-    margin-top: 50px;
-  }
-  
-  .profile .description {
-    flex-direction: column;
-    padding: 16px;
-    background-color: #fff;
-    text-align: center;
-  }
-  
-  .profile .description .avatar {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
-    margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 380px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+  background-color: #e6eff6;
+  margin: 50px auto;
+}
 
-  }
-  
-  .profile .description .name {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 4px;
-    color: #626262;
-  }
-  
-  .profile .description .tag {
-    font-size: 16px;
-    margin-bottom: 8px;
-  }
-  
-  .profile .stats {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin-top: auto;
-  }
-  
-  .profile .stats li {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    align-items: center;
-    padding: 16px;
-    border-right: 1px solid #ddd;
-  }
-  
-  .profile .stats li:last-child {
-    border-right: none;
-  }
-  
-  .profile .stats .label {
-    font-size: 14px;
-    margin-bottom: 8px;
-    text-transform: uppercase;
-    color: #666;
-  }
-  
-  .profile .stats .quantity {
-    font-size: 16px;
-    font-weight: bold;
-  }
+.profile .description {
+  flex-direction: column;
+  padding: 16px;
+  background-color: #fff;
+  text-align: center;
+}
 
-.tag, .location {
-    font-size: 16px;
-    color: #a5a2a2;
-    font-weight: bold;
-  }
+.profile .description .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+  margin-bottom: 16px;
+}
+
+.profile .description .name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 4px;
+  color: #626262;
+}
+
+.profile .description .tag {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.profile .stats {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-top: auto;
+}
+
+.profile .stats li {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  border-right: 1px solid #ddd;
+}
+
+.profile .stats li:last-child {
+  border-right: none;
+}
+
+.profile .stats .label {
+  font-size: 14px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  color: #666;
+}
+
+.profile .stats .quantity {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.tag,
+.location {
+  font-size: 16px;
+  color: #a5a2a2;
+  font-weight: bold;
+}
